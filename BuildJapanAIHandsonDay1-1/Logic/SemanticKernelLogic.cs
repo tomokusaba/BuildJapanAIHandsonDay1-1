@@ -46,10 +46,6 @@ namespace BuildJapanAIHandsonDay1_1.Logic
             chatHistory = new OpenAIChatHistory();
         }
 
-        public IList<ChatHistory.Message> GetChatHistory()
-        {
-            return chatHistory.Messages;
-        }
 
         public async Task StreamRun(string input)
         {
