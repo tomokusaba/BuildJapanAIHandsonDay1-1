@@ -9,7 +9,7 @@ namespace BuildJapanAIHandsonDay1_1.Logic
     {
         private readonly ILogger<SemanticKernelLogic> _logger;
         private readonly IConfiguration _configuration;
-        private OpenAIChatHistory chatHistory;
+        private ChatHistory chatHistory;
         public IChatCompletion ChatCompletion { get; set; }
         public string GeneratedHtml { get; set; } = string.Empty;
 
@@ -36,7 +36,7 @@ namespace BuildJapanAIHandsonDay1_1.Logic
             ChatCompletion = kernel.GetService<TODO>();
 
             // 引数にはプロンプトメッセージを記述します。：型はstring
-            chatHistory = new OpenAIChatHistory();
+            chatHistory = ChatCompletion.CreateNewChat();
 
         }
 
