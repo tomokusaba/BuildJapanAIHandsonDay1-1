@@ -43,7 +43,7 @@ namespace BuildJapanAIHandsonDay1_1.Logic
         public void ClearChatHistory()
         {
             // 引数にはプロンプトメッセージを記述します。：型はstring
-            chatHistory = new OpenAIChatHistory();
+            chatHistory = ChatCompletion.CreateNewChat();
         }
 
 
