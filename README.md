@@ -19,18 +19,21 @@
 ```
 ### DeploymentName
 
-![image](https://github.com/tomokusaba/BuildJapanAIHandsonDay1-1/assets/46523924/9df68407-6cd6-4985-b2df-47396037d139)
+![image](https://github.com/tomokusaba/BuildJapanAIHandsonDay1-1/assets/46523924/682f6b24-e816-4ea5-b38e-c95a83c65a1b)
+
 Azure OpenAI Studioのデプロイ名の欄に表示されているテキストを設定する。
 
 ### BaseUrl,Key
 
-![image](https://github.com/tomokusaba/BuildJapanAIHandsonDay1-1/assets/46523924/6ec07df4-b2d8-4d4d-99b5-dc92ab5635a3)
+![image](https://github.com/tomokusaba/BuildJapanAIHandsonDay1-1/assets/46523924/f227ed48-d987-4c9b-ad93-2adad8723a1e)
+
 Azure PortalのAzureOpenAIのリソース内のキーとエンドポイントにあるエンドポイント及びキー（どちらでもOK）を設定する。
 
 
 ### BingKey
 
-![image](https://github.com/tomokusaba/BuildJapanAIHandsonDay1-1/assets/46523924/8b5220c3-7dee-4fb0-8410-4db5c6a33ceb)
+![image](https://github.com/tomokusaba/BuildJapanAIHandsonDay1-1/assets/46523924/6b744147-c31e-4fda-922f-b90c07acb217)
+
 Azure PortalのBing Searchのリソース内のキーとエンドポイントにあるキー（どちらでもOK）を設定する。
 
 ## 参考コード
